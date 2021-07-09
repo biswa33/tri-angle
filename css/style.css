@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #696969;
+    --secondary-color: #add8e6;
+}
+
+body {
+    background: #f3f3f3;;
+}
+
+.arrow-up {
+    margin: 0 auto;
+    /* code for triangle starts form here */
+    width: 0; 
+    height: 0; 
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid var(--primary-color);
+  }
+  
+  .arrow-left {
+    margin: 30px auto;
+    /* code for triangle starts form here */
+    height: 0;
+    width: 0;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid var(--secondary-color);
+  }
+  
+  .arrow-right {
+    margin: 30px auto;
+    /* code for triangle starts form here */
+    height: 0;
+    width: 0;
+    border-left: 120px solid transparent;
+    border-bottom: 120px solid var(--secondary-color);
+  }
+  
+  .arrow-down {
+    margin: 10px auto;
+    /* code for triangle starts form here */
+    height: 0;
+    width: 0;
+  /*   background: red; */
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 120px solid var(--primary-color);
+  }
